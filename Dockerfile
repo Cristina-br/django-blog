@@ -36,6 +36,5 @@ RUN pip install --upgrade pip && \
   chmod -R 755 /data/web/static && \
   chmod -R 755 /data/web/media
 
-
 # Muda o usuário para duser
 USER duser
